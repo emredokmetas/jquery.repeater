@@ -178,3 +178,11 @@ $repeater.setList([
     { 'text-input': 'set-foo' }
 ]);
 ```
+## Restart 
+
+Functions required to refresh the item to be copied.
+
+```javascript
+var $repeater = $('.repeater').repeater();
+$repeater.restart();
+```
